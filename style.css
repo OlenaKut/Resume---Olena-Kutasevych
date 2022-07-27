@@ -1,0 +1,92 @@
+:root {
+  --primary-color: rgb(133, 234, 252);
+  --secondary-color: #fcfcfc;
+}
+body {
+  font-family: "Cerebri Sans", Helvetica, Arial, sans-serif;
+}
+.navbar {
+  background: var(--primary-color);
+}
+.navbar-brand {
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+.navbar-brand:hover {
+  color: var(--secondary-color);
+}
+.nav-link {
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+.nav-link:hover {
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
+
+.main-page {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.ukraine {
+  width: 30px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.homepage {
+  color: var(--primary-color);
+}
+
+.about-page {
+  margin: 50px auto;
+  text-align: center;
+}
+.about-text {
+  font-size: 22px;
+}
+
+.contact-link {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+.contact-link:hover {
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  font-weight: 500;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.about-link:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.contact-mail {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.contact-mail:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
