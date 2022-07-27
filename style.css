@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 78px;
   font-weight: 600;
 }
 
@@ -47,6 +47,17 @@ h3 {
   font-weight: 500;
   opacity: 0.9;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
 .homepage {
   color: var(--primary-color);
 }
@@ -58,14 +69,37 @@ h3 {
 .about-text {
   font-size: 22px;
 }
+@media (max-width: 576px) {
+  .text-block {
+    margin: 10px auto;
+    text-align: center;
+  }
+}
 
-.contact-link {
+.articles-text {
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .about-text {
+    font-size: 18px;
+    margin: 10px;
+  }
+  .articles-text {
+    font-size: 18px;
+  }
+  .button-link {
+    font-size: 14px;
+  }
+}
+.contact-link,
+.button-link {
   color: var(--secondary-color);
   background: var(--primary-color);
   font-weight: 500;
   text-decoration: none;
 }
-.contact-link:hover {
+.contact-link:hover,
+.button-link:hover {
   color: var(--secondary-color);
   background: var(--primary-color);
   font-weight: 500;
